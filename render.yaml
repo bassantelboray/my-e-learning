@@ -13,7 +13,7 @@ services:
   - type: web
     name: my-e-learning-frontend
     env: node
-    rootDir: Frontend/E-Learning-main
+    rootDir: frontend/E-Learning-main
     buildCommand: "npm install && npm run build"
     startCommand: "npm run start"
     plan: free
