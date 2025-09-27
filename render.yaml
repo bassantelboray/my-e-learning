@@ -9,11 +9,12 @@ services:
     plan: free
     region: oregon
 
+ #  تغييرات الـ Frontend هنا
   - type: web
     name: my-e-learning-frontend
     env: node
-    rootDir: frontend/E-Learning-main
+    rootDir: Frontend/E-Learning-main
     buildCommand: "npm install && npm run build"
-    startCommand: "npm run preview"
+    startCommand: "npm run start"
     plan: free
     region: oregon
