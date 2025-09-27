@@ -4,7 +4,7 @@ services:
     env: node
     rootDir: backend
     buildCommand: "npm install"
-    startCommand: "node server.js"   # أو غيّرها حسب الملف اللي بيشغّل السيرفر عندك
+    startCommand: "node app.js"   
     plan: free
     region: oregon
 
