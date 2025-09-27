@@ -1,0 +1,14 @@
+{
+  "name": "my-e-learning",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    
+    "build": "npm run build --prefix frontend/E-Learning-main",
+
+    "start": "npm run start --prefix backend"
+  }
+}

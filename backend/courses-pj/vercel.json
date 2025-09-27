@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/ping", "destination": "/api/ping.js" },
+    { "source": "/(.*)", "destination": "/api/index.js" }
+  ]
+}
