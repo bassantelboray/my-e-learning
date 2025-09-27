@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: my-e-learning-backend
+    env: node
+    rootDir: backend
+    buildCommand: "npm install"
+    startCommand: "node server.js"   # أو غيّرها حسب الملف اللي بيشغّل السيرفر عندك
+    plan: free
+    region: oregon
+
+  - type: web
+    name: my-e-learning-frontend
+    env: node
+    rootDir: frontend/E-Learning-main
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm run preview"
+    plan: free
+    region: oregon
