@@ -4,7 +4,8 @@ services:
     env: node
     rootDir: backend
     buildCommand: "npm install"
-    startCommand: "node app.js"   
+    startCommand: node courses-pj/app.js
+ 
     plan: free
     region: oregon
 
