@@ -2,9 +2,9 @@ services:
   - type: web
     name: my-e-learning-backend
     env: node
-    rootDir: backend
+    rootDir: backend/courses-pj
     buildCommand: "npm install"
-    startCommand: node courses-pj/app.js
+    startCommand: "node app.js"
  
     plan: free
     region: oregon
